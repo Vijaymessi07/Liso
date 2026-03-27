@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liso</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <header>
+            <h1>Liso</h1>
+            <p class="subtitle">Listen to the latest songs in style</p>
+        </header>
+
+        <div class="container" id="song-list">
+            <!-- Chikiri Song -->
+            <div class="song-container">
+                <div class="song-info">
+                    <span class="material-symbols-rounded song-icon">music_note</span>
+                    <h3>Chikiri Song</h3>
+                </div>
+                <!-- Custom Audio Player -->
+                <div class="custom-audio-player">
+                    <button class="play-pause-btn"><span class="material-symbols-rounded">play_arrow</span></button>
+                    <div class="progress-wrapper">
+                        <span class="current-time">0:00</span>
+                        <div class="progress-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <span class="total-time">0:00</span>
+                    </div>
+                </div>
+                <!-- Hidden Audio Element -->
+                <audio class="audio-element" title="chikiri-song-peddi">
+                    <source src="/www.cabinet-avocat-cadet.fr - Chikiri Chikiri Video Song Peddi Ram Charan Janhvi Buchi Babu Sana AR Rahman A.R. Ameen (256 KBps).mp3">
+                </audio>
+            </div>
+
+            <!-- God mode song -->
+            <div class="song-container">
+                <div class="song-info">
+                    <span class="material-symbols-rounded song-icon">music_note</span>
+                    <h3>God mode song</h3>
+                </div>
+                <div class="custom-audio-player">
+                    <button class="play-pause-btn"><span class="material-symbols-rounded">play_arrow</span></button>
+                    <div class="progress-wrapper">
+                        <span class="current-time">0:00</span>
+                        <div class="progress-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <span class="total-time">0:00</span>
+                    </div>
+                </div>
+                <audio class="audio-element" title="God-mode-song">
+                    <source src="/God Mode Lyric Video  Karuppu  Suriya  RJB  Trisha  @SaiAbhyankkar  Dream Warrior Pictures.mp3">
+                </audio>
+            </div>
+
+            <!-- Singari song -->
+            <div class="song-container">
+                <div class="song-info">
+                    <span class="material-symbols-rounded song-icon">music_note</span>
+                    <h3>Singari song</h3>
+                </div>
+                <div class="custom-audio-player">
+                    <button class="play-pause-btn"><span class="material-symbols-rounded">play_arrow</span></button>
+                    <div class="progress-wrapper">
+                        <span class="current-time">0:00</span>
+                        <div class="progress-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <span class="total-time">0:00</span>
+                    </div>
+                </div>
+                <audio class="audio-element" title="Singari-song-Dude">
+                    <source src="/Singari Video Song  Dude  Pradeep Ranganathan, Mamitha Baiju  @SaiAbhyankkar   Keerthiswaran.mp3">
+                </audio>
+            </div>
+
+            <!-- Thangapoovey song -->
+            <div class="song-container">
+                <div class="song-info">
+                    <span class="material-symbols-rounded song-icon">music_note</span>
+                    <h3>Thangapoovey song</h3>
+                </div>
+                <div class="custom-audio-player">
+                    <button class="play-pause-btn"><span class="material-symbols-rounded">play_arrow</span></button>
+                    <div class="progress-wrapper">
+                        <span class="current-time">0:00</span>
+                        <div class="progress-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <span class="total-time">0:00</span>
+                    </div>
+                </div>
+                <audio class="audio-element" title="Thangapoovey-song-madharasi">
+                    <source src="/ps4vita.fr - Thangapoovey - Lyrical Video Madharaasi Sivakarthikeyan Rukmini A.R.Murugadoss Anirudh (320 KBps).mp3">
+                </audio>
+            </div>
+
+            <!-- Ratnamala song -->
+            <div class="song-container">
+                <div class="song-info">
+                    <span class="material-symbols-rounded song-icon">music_note</span>
+                    <h3>Ratnamala song</h3>
+                </div>
+                <div class="custom-audio-player">
+                    <button class="play-pause-btn"><span class="material-symbols-rounded">play_arrow</span></button>
+                    <div class="progress-wrapper">
+                        <span class="current-time">0:00</span>
+                        <div class="progress-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <span class="total-time">0:00</span>
+                    </div>
+                </div>
+                <audio class="audio-element" title="Ratnamala-song-parasakthi">
+                    <source src="/Ratnamala - Lyrical ｜ Parasakthi ｜ Sivakarthikeyan ｜ Sreeleela ｜ Sudha Kongara ｜ G.V. Prakash.mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay & Modals -->
+    <div class="overlay"></div>
+
+    <div class="popup">
+        <div class="popup-header">
+            <h2>Add New Track</h2>
+            <button class="close-popup"><span class="material-symbols-rounded">close</span></button>
+        </div>
+        <form>
+            <div class="input-group">
+                <span class="material-symbols-rounded">title</span>
+                <input type="text" placeholder="Song Name" id="song-name">
+            </div>
+            <div class="input-group file-input-group">
+                <span class="material-symbols-rounded">audio_file</span>
+                <input type="file" id="song" pattern="audio" accept="audio/*" required>
+            </div>
+        </form>
+        <div class="popup-actions">
+            <button class="cancel" type="button">Cancel</button>
+            <button class="add-song" type="button">Add Song</button>
+        </div>
+    </div>
+
+    <button id="add-btn"><span class="material-symbols-rounded">add</span></button>
+
+    <div class="body2">
+        <p class="footer-msg">Add or Download the songs if needed and enjoy!</p>
+        <footer>
+            <p>&copy; 2026 Liso.All rights reserved<br>
+                <b>Just for study purpose</b>
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
